@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 int main(){
-	//Declarar variáveis
+	//Declarar variÃ¡veis
 	int numero;
 	
 	//Solicitar dados
 	printf("Digite um numero: ");
 	scanf("%i", &numero);
 	
-	//Verificar se é par ou ímpar
+	//Verificar se Ã© par ou Ã­mpar
+	printf("\n>>>EXIBINDO DADOS<<<\n");
 	if(numero%2==0){
 		printf("Numero par.");
 	}else{
