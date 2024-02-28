@@ -5,6 +5,7 @@ void cabecalho(){
 	
 	system("cls||clear");
 	printf("\n===SENAI===\n");
+	fflush(stdin); 
 
 }
 
@@ -18,7 +19,7 @@ int main(){
 
 	cabecalho();
 	printf("Digite um numero: ");
-	scanf("%i", &numero);
+	scanf("%i",&numero);
 	system("cls||clear");
 	
 	//Verificar sucessor e antecessor
@@ -29,8 +30,8 @@ int main(){
 	//Exibindo dados ao usuário 
 	
 	printf("\n===EXIBINDO RESULTADOS===\n");
-	printf("Sucessor: %i \n", sucessor);
-	printf("Antecessor: %i \n", antecessor);
+	printf("Sucessor: %i \n",sucessor);
+	printf("Antecessor: %i \n",antecessor);
 	
 	return 0;
 }
