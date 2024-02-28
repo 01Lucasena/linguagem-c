@@ -5,9 +5,12 @@ void cabecalho(){
 	
 	system("cls||clear");
 	printf("\n===SENAI===\n");
+	fflush(stdin); 
+	
 }
 
 int main(){
+	
 	//Declarar variáveis
 	
 	int numero;
@@ -16,7 +19,7 @@ int main(){
 	
 	cabecalho();
 	printf("Digite um numero: ");
-	scanf("%i", &numero);
+	scanf("%i",&numero);
 	system("cls||clear");
 	
 	//Verificar se é par ou ímpar
