@@ -1,18 +1,34 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+void cabecalho(){
+	
+	system("cls||clear");
+	printf("\n===SENAI===\n");
+
+}
 
 int main(){
+	
 	//Declarar variaveis
+	
 	int numero, antecessor, sucessor;
 	
 	//Solicitar dados ao usuário
+
+	cabecalho();
 	printf("Digite um numero: ");
 	scanf("%i", &numero);
+	system("cls||clear");
 	
+	//Verificar sucessor e antecessor
 	
-	//Mostrar número sucessor e antecessor
 	sucessor = numero + 1;
 	antecessor = numero - 1;
-	printf("\n>>>EXIBINDO DADOS<<<\n");
+	
+	//Exibindo dados ao usuário 
+	
+	printf("\n===EXIBINDO RESULTADOS===\n");
 	printf("Sucessor: %i \n", sucessor);
 	printf("Antecessor: %i \n", antecessor);
 	
