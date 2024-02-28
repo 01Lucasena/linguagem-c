@@ -10,6 +10,7 @@ void cabecalho(){
 }	
 	
 int main(){
+	
 	//Declarar variáveis
 	
 	float primeiroValor, segundoValor, soma, subtracao, multiplicacao, divisao;
