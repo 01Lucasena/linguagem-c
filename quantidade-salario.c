@@ -5,6 +5,8 @@ void cabecalho(){
 	
 	system("cls||clear");
 	printf("\n===SENAI===\n");
+	fflush(stdin); 
+	
 }
 
 int main(){
@@ -18,7 +20,7 @@ int main(){
 
 	cabecalho();
 	printf("Informe o valor do seu salario: ");
-	scanf("%f", &salario);
+	scanf("%f",&salario);
 	system("cls||clear");
 	
 	//Verificar quantos salarios mininimos o usuario recebe
@@ -28,7 +30,7 @@ int main(){
 	//Exibir dados
 	
 	printf("\n===EXIBINDO RESULTADOS===\n");
-	printf("Salario: R$ %.2f\n", salario);
+	printf("Salario: R$ %.2f\n",salario);
 	printf("Numero de salarios minimos: %i\n", quantidadeDeSalarios);
 
 	return 0;
