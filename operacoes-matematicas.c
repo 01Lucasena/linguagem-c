@@ -5,6 +5,7 @@ void cabecalho(){
 	
 	system("cls||clear");
 	printf("\n===SENAI===\n");
+	fflush(stdin); 
 	
 }	
 	
@@ -18,11 +19,11 @@ int main(){
 	
 	cabecalho();
 	printf("Digite o primeiro valor: ");
-	scanf("%f", &primeiroValor);
+	scanf("%f",&primeiroValor);
 	
 	cabecalho();
 	printf("Digite o segundo valor: ");
-	scanf("%f", &segundoValor);
+	scanf("%f",&segundoValor);
 	system("cls||clear");
 	
 	//Realizar operações
@@ -35,10 +36,10 @@ int main(){
 	//Exibir resultados
 	
 	printf("\n===EXIBINDO RESULTADOS===\n");
-	printf("Soma: %.2f\n", soma);
-	printf("Subtracao: %.2f\n", subtracao);
-	printf("Multiplicacao: %.2f\n", multiplicacao);
-	printf("Divisao: %.2f\n", divisao);
+	printf("Soma: %.2f\n",soma);
+	printf("Subtracao: %.2f\n",subtracao);
+	printf("Multiplicacao: %.2f\n",multiplicacao);
+	printf("Divisao: %.2f\n",divisao);
 	
 	return 0;
 	
