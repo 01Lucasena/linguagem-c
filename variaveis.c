@@ -7,7 +7,7 @@ int main() {
 	char sexo = 'F';
 	char nome[200] = "Marta";
 	
-	printf("\n>>>EXIBINDO DADOS<<<\n");
+	printf("\n===EXIBINDO RESULTADOS===\n");
 	printf("Idade: %i \n", idade);//%i = int
 	printf("Peso: %f \n", peso);//%f = float
 	printf("Sexo: %c \n", sexo);//%c = char
