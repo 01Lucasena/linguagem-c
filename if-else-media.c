@@ -5,50 +5,50 @@ void cabecalho (){
 	
 	system("cls||clean");
 	printf("\n===SENAI===\n");
-	 
+	fflush(stdin); 
 }
 
 int main(){
 	
-	//Declarar variáveis
+	//Declarar variÃ¡veis
 	
 	char nome[200];
 	int idade;
 	float primeiraNota, segundaNota, terceiraNota, media;
 	
-	//Solicitar dados ao usuário
+	//Solicitar dados ao usuÃ¡rio
 	
 	cabecalho();
 	printf("Digite seu nome: ");
-	scanf("%s", &nome);
+	scanf("%s",&nome);
 	
 	cabecalho();
 	printf("Digite sua idade: ");
-	scanf("%i", &idade);
+	scanf("%i",&idade);
 	
 	cabecalho();
 	printf("Digite a primeira nota: ");
-	scanf("%f", &primeiraNota);
+	scanf("%f",&primeiraNota);
 	
 	cabecalho();
 	printf("Digite a segunda nota: ");
-	scanf("%f", &segundaNota);
+	scanf("%f",&segundaNota);
 	
 	cabecalho();
 	printf("Digite a terceira nota: ");
-	scanf("%f", &terceiraNota);
+	scanf("%f",&terceiraNota);
 	system("cls||clean");
 	
-	//Calcular média do aluno
+	//Calcular mÃ©dia do aluno
 	
 	media = (primeiraNota + segundaNota + terceiraNota) / 3;
 	
-	//Exibir dados ao usuário
+	//Exibir dados ao usuÃ¡rio
 	
 	printf("\n===EXIBINDO RESULTADOS===\n");
-	printf("Nome: %s\n", nome);
-	printf("Idade: %i\n", idade);
-	printf("Media: %.2f\n", media);
+	printf("Nome: %s\n",nome);
+	printf("Idade: %i\n",idade);
+	printf("Media: %.2f\n",media);
 	
 	if(media>=7){
 		
