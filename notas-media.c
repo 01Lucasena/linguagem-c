@@ -17,11 +17,10 @@ int main(){
 	
 	//Solicitar Dados
 	
-	printf("\n===SENAI===\n");
+	cabecalho();
 	printf("Digite seu nome: ");
 	scanf("%s", &nome);
-	system("cls||clear");
-
+	
 	cabecalho();
 	printf("Digite sua idade: ");
 	scanf("%i", &idade);
