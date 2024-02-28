@@ -1,20 +1,31 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-	int main(){
-	//Declarar variáveis
+void cabecalho(){
+	
+	system("cls||clear");
+	printf("\n===SENAI===\n");
+	
+}	
+	
+int main(){
+	//Declarar variÃ¡veis
 	
 	float primeiroValor, segundoValor, soma, subtracao, multiplicacao, divisao;
 	
 
-	//Solicitar dados ao usuário
+	//Solicitar dados ao usuÃ¡rio
 	
+	printf("\n===SENAI===\n");
 	printf("Digite o primeiro valor: ");
 	scanf("%f", &primeiroValor);
 	
+	cabecalho();
 	printf("Digite o segundo valor: ");
 	scanf("%f", &segundoValor);
+	system("cls||clear");
 	
-	//Realizar operações
+	//Realizar operaÃ§Ãµes
 	
 	soma = primeiroValor + segundoValor;
 	subtracao = primeiroValor - segundoValor;
@@ -23,16 +34,12 @@
 	
 	//Exibir resultados
 	
-	printf("\n>>>Resultados<<< \n");
-	printf("Soma: %f\n", soma);
-	printf("Subtracao: %f\n", subtracao);
-	printf("Multiplicacao: %f\n", multiplicacao);
-	printf("Divisao: %f\n", divisao);
-	
-	
-	
+	printf("\n===EXIBINDO RESULTADOS===\n");
+	printf("Soma: %.2f\n", soma);
+	printf("Subtracao: %.2f\n", subtracao);
+	printf("Multiplicacao: %.2f\n", multiplicacao);
+	printf("Divisao: %.2f\n", divisao);
 	
 	return 0;
 	
 	}
-	
