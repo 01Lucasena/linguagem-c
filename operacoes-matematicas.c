@@ -16,7 +16,7 @@ int main(){
 
 	//Solicitar dados ao usuário
 	
-	printf("\n===SENAI===\n");
+	cabecalho();
 	printf("Digite o primeiro valor: ");
 	scanf("%f", &primeiroValor);
 	
