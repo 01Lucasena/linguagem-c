@@ -5,6 +5,7 @@ void cabecalho(){
 	
 	system("cls||clear");
 	printf("\n===SENAI===\n");
+	fflush(stdin); 
 
 }
 
@@ -21,30 +22,30 @@ int main(){
 	
 	cabecalho();
 	printf("Digite seu nome: ");
-	scanf("%s", &nome);
+	scanf("%s",&nome);
 	
 	fflush(stdin);
 	
 	cabecalho();
 	printf("Digite seu sexo (M para masculino ou F para feminino): ");
-	scanf("%c", &sexo);
+	scanf("%c",&sexo);
 	
 	cabecalho();
 	printf("Digite sua idade: ");
-	scanf("%i", &idade);
+	scanf("%i",&idade);
 	
 	cabecalho();
 	printf("Digite seu peso: ");
-	scanf("%f", &peso);
+	scanf("%f",&peso);
 	system("cls||clear");
 	
 	//Exibir dados
 	
 	printf("\n===EXIBINDO RESULTADOS===\n");
-	printf("Nome: %s\n", nome);	
-	printf("Idade: %i\n", idade);
-	printf("Sexo: %c\n", sexo);
-	printf("Peso: %.2f\n", peso);
+	printf("Nome: %s\n",nome);	
+	printf("Idade: %i\n",idade);
+	printf("Sexo: %c\n",sexo);
+	printf("Peso: %.2f\n",peso);
 
 	return 0;
 }
