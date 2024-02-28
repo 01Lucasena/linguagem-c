@@ -4,14 +4,15 @@ int main(){
 	//Declarar variaveis
 	int numero, antecessor, sucessor;
 	
-	//Solicitar dados ao usuário
+	//Solicitar dados ao usuÃ¡rio
 	printf("Digite um numero: ");
 	scanf("%i", &numero);
 	
 	
-	//Mostrar número sucessor e antecessor
+	//Mostrar nÃºmero sucessor e antecessor
 	sucessor = numero + 1;
 	antecessor = numero - 1;
+	printf("\n>>>EXIBINDO DADOS<<<\n");
 	printf("Sucessor: %i \n", sucessor);
 	printf("Antecessor: %i \n", antecessor);
 	
