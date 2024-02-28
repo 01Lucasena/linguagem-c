@@ -2,7 +2,7 @@
 
 	int main(){
 	
-	//Declarar Variáveis
+	//Declarar VariÃ¡veis
 	char nome[200];
 	int idade;
 	float primeiraNota, segundaNota, terceiraNota, quartaNota, media;
@@ -27,17 +27,18 @@
 	printf("Digite a quarta nota: ");
 	scanf("%f", &quartaNota);
 	
-	//Realizar cálculo da média
+	//Realizar cÃ¡lculo da mÃ©dia
 	media = (primeiraNota + segundaNota + terceiraNota +  quartaNota)/4;
 	
 	//Exibir dados
+	printf("\n>>>EXIBINDO DADOS<<<\n");
 	printf("Aluno: %s \n", nome);
 	printf("Idade: %i \n", idade);
 	printf("primeiraNota: %f \n", primeiraNota);
 	printf("segundaNota: %f \n", segundaNota);
 	printf("terceiraNota: %f \n", terceiraNota);
 	printf("quartaNota: %f \n", quartaNota);
-	printf("\Média: %f \n", media);
+	printf("\MÃ©dia: %f \n", media);
 
 	return 0;
 
