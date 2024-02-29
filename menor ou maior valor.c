@@ -14,11 +14,11 @@ int main(){
 	
 	setlocale(LC_ALL,"portuguese");
 	
-	//Declarar vari·veis
+	//Declarar vari√°veis
 	
 	int primeiroValor, segundoValor, media, soma, produto, maiorValor, menorValor;
 	
-	//Solicitar dados ao usu·rio
+	//Solicitar dados ao usu√°rio
 	
 	cabecalho();
 	printf("Digite o primeiro valor: ");
@@ -35,9 +35,10 @@ int main(){
 	soma=primeiroValor+segundoValor;
 	produto=primeiroValor*segundoValor;
 	
-	//Exibir dados ao usu·rio
-	
-	printf("MÈdia: %i\n",media);
+	//Exibir dados ao usu√°rio
+
+	cabecalho();
+	printf("M√©dia: %i\n",media);
 	printf("Soma: %i\n",soma);
 	printf("Produto: %i\n",produto);
 	
@@ -48,7 +49,7 @@ int main(){
 		printf("Maior valor: %i\n",maiorValor);
 		printf("Menor valor: %i\n",menorValor);
 		
-	}else{
+	}if(primeiroValor<segundoValor){
 		
 		maiorValor=segundoValor;
 		menorValor=primeiroValor;
@@ -56,7 +57,9 @@ int main(){
 		printf("Menor valor: %i\n",menorValor);
 		
 		
-	}
+	}if(primeiroValor==segundoValor){
+
+		printf("Os valores s√£o iguais");
 	
 	
 	return 0;
