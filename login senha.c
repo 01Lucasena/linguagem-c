@@ -12,10 +12,13 @@ void cabecalho(){
 }
 
 int main(){
+
+	setlocale(LC_ALL,"portuguese");
 	
+	//Declarar vari√°veis
 	char login[200], senha[200], loginCadastrado[200] = "lucas123", senhaCadastrada[] = "123@abc";
 	
-	//Solicitando dados ao usu·rio
+	//Solicitando dados ao usu√°rio
 	
 	cabecalho();
 	printf("Digite seu login: ");
@@ -25,7 +28,7 @@ int main(){
 	printf("Digite sua senha: ");
 	scanf("%s",&senha);
 	
-	//Verificar se login e senha est„o corretos
+	//Verificar se login e senha est√£o corretos
 	
 	cabecalho();
 	
