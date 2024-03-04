@@ -14,34 +14,34 @@ int main(){
 	
 	setlocale(LC_ALL,"");
 	
-	//Declarar variáveis
+	//Declarar variÃ¡veis
 	
-	int i, soma, primeiroNumero, segundoNumero, terceiroNumero, quartoNumero, quintoNumero;
+	int i, primeiroNumero, segundoNumero, terceiroNumero, quartoNumero, quintoNumero;
 	
-	//Solicitar dados ao usuário
+	//Solicitar dados ao usuÃ¡rio
 	
 	cabecalho();
-	printf("Digite o primeiro número: ");
+	printf("Digite o primeiro nÃºmero: ");
 	scanf("%d",&primeiroNumero);
 	
 	cabecalho();
-	printf("Digite o segundo número: ");
+	printf("Digite o segundo nÃºmero: ");
 	scanf("%d",&segundoNumero);
 	
 	cabecalho();
-	printf("Digite o terceiro número: ");
+	printf("Digite o terceiro nÃºmero: ");
 	scanf("%d",&terceiroNumero);
 	
 	cabecalho();
-	printf("Digite o quarto número: ");
+	printf("Digite o quarto nÃºmero: ");
 	scanf("%d",&quartoNumero);
 	
 	cabecalho();
-	printf("Digite o quinto número: ");
+	printf("Digite o quinto nÃºmero: ");
 	scanf("%d",&quintoNumero);
 	system("cls||clear");
 	
-	//Apresentar soma de todos os números
+	//Apresentar soma de todos os nÃºmeros
 	
 	cabecalho();
 	
