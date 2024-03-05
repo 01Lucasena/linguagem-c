@@ -1,3 +1,5 @@
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -16,42 +18,25 @@ int main(){
 	
 	//Declarar variáveis
 	
-	int i, primeiroNumero, segundoNumero, terceiroNumero, quartoNumero, quintoNumero;
+	int i, numero=0, soma=0;
 	
-	//Solicitar dados ao usuário
+	//Solicitando dados ao usuário
 	
-	cabecalho();
-	printf("Digite o primeiro número: ");
-	scanf("%d",&primeiroNumero);
+
 	
-	cabecalho();
-	printf("Digite o segundo número: ");
-	scanf("%d",&segundoNumero);
-	
-	cabecalho();
-	printf("Digite o terceiro número: ");
-	scanf("%d",&terceiroNumero);
-	
-	cabecalho();
-	printf("Digite o quarto número: ");
-	scanf("%d",&quartoNumero);
-	
-	cabecalho();
-	printf("Digite o quinto número: ");
-	scanf("%d",&quintoNumero);
-	system("cls||clear");
-	
-	//Apresentar soma de todos os números
-	
-	cabecalho();
-	
-	for(i=1;i<=1;i++){
-    
-        printf("%d + %d + %d + %d + %d = %d\n",primeiroNumero,segundoNumero,terceiroNumero,quartoNumero,quintoNumero,primeiroNumero+segundoNumero+terceiroNumero+quartoNumero+quintoNumero);
-      
+	for(i=1;i<=5;i++){
+		
+		cabecalho();
+		printf("Digite o %dº número: ",i);
+		scanf("%d",&numero);
+		
+		
+		soma = soma + numero; 
+		
+		printf("\nSoma: %d \n",soma);
+		
 	}
 	
+	
 	return 0;
-
-
 }
