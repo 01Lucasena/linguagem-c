@@ -8,34 +8,37 @@ void cabecalho(){
 	printf("\n===SENAI===\n");
 	fflush(stdin);
 	
-	}
+}
+
+int main (){
 	
-int main(){
+	setlocale (LC_ALL,"");
 	
-	setlocale(LC_ALL,"");
+	//Declarar vari√°veis
 	
-	//Declarar vari·veis
+	int i, numero=0, pares=0, impares=0;
 	
-	int i;
-	
-	//Mostras quais numeros s„o pares e quais s„o impares
-	
-	cabecalho();
+	//
 	
 	for(i=1;i<=5;i++){
 		
-		if(i%2==0){
+		cabecalho();
+		printf("Digite o %d¬∫ n√∫mero: ", i);
+		scanf("%d",&numero);
+		
+		if(numero%2==0){
 			
-			printf("%d È par\n",i);
+			pares++;
 			
 		}else{
-		
-			printf("%d È impar\n",i);
-		
+			
+			impares++;
 		}
 		
 	}
 	
+	printf("\nTotal de pares: %d", pares);
+	printf("\nTotal de impares: %d", impares);
+	
 	return 0;
-} 
-
+}
