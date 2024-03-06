@@ -14,11 +14,11 @@ int main(){
 	
 	setlocale(LC_ALL,"");
 	
-	//Declarar var·veis
+	//Declarar var√°veis
 	
 	int i;
 	
-	//Exibir nÈmeros pares de 100 a 120
+	//Exibir n√∫meros pares de 100 a 120
 	
 	cabecalho();
 	
