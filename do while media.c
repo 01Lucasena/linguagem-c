@@ -19,6 +19,7 @@ int main(){
 	
 		printf("Digite a %dª nota: ",contador);
 		scanf("%f",&nota);
+		
 		fflush(stdin);
 		
 	
