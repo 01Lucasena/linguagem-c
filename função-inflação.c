@@ -20,7 +20,7 @@ int main(){
 	scanf("%f",&valor);
 	
 	printf("\n=== RESULTADO ===\n");
-	printf("Valor com  inflação: %.2f",inflacionar(valor));
+	printf("Valor com  inflaÃ§Ã£o: %.2f",inflacionar(valor));
 	
 	return 0;
 }
