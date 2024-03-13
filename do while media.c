@@ -30,7 +30,7 @@ int main(){
 	}
 	
 	media = soma / 2;
-	printf("\n===Exibindo Resultados===\n");
+	printf("\n===EXIBINDO RESULTADOS===\n");
 	printf("\nMédia: %.2f",media);
 	
 	return 0;
