@@ -7,11 +7,11 @@ int main(){
 	
 	setlocale(LC_ALL,"");
 	
-	//Declarar vari·veis
+	//Declarar vari√°veis
 	int i=0, valor, soma=0; 
 	float media;
 	
-	//Solicitar dados ao usu·rio
+	//Solicitar dados ao usu√°rio
 	printf("Digite um valor: ");
 	scanf("%d",&valor);
 	
@@ -28,13 +28,13 @@ int main(){
 	
 	if (i == 0){
 	
-		printf("N„o foi informado um n˙mero positivo");
+		printf("N√£o foi informado um n√∫mero positivo");
 	
 	}else{
 
-	media = soma / i;
+	media = soma / (float)i;
 	printf("\n===EXIBINDO RESULTADOS===\n");
-	printf("\nMÈdia: %.2f",media);
+	printf("\nM√©dia: %.2f",media);
 	
 	}
 	
