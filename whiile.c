@@ -7,13 +7,13 @@ int main(){
 	 
 	 setlocale(LC_ALL,"");
 	 
-	 //Declarar vari·veis
+	 //Declarar vari√°veis
 	 
 	 int contador, idade, continua;
 	 char sexo;
 	 float salario, soma=0, mediaSalarial;
 	 
-	 //Solicitar dados ao usu·rio
+	 //Solicitar dados ao usu√°rio
 	 
 	 printf("Digite sua idade: ");
 	 scanf("%d",&idade);
@@ -23,7 +23,7 @@ int main(){
 	 printf("Digite seu sexo (tecle 'M' ou 'F'): ");
 	 scanf("%c",&sexo);
 	 
-	 printf("Digite o valor do seu sal·rio: ");
+	 printf("Digite o valor do seu sal√°rio: ");
 	 scanf("%f",&salario);
 	 
 	 fflush(stdin);
@@ -45,7 +45,7 @@ int main(){
 		 printf("Digite seu sexo (tecle 'M' ou 'F'): ");
 	 	scanf("%c",&sexo);
 	 
-	 	printf("Digite o valor do seu sal·rio: ");
+	 	printf("Digite o valor do seu sal√°rio: ");
 	 	scanf("%f",&salario);
 	 	
 	 	fflush(stdin);
@@ -56,7 +56,7 @@ int main(){
 	 }
 	 
 	 mediaSalarial = soma / (float)contador;
-	 printf("MÈdia salarial: %.2f",mediaSalarial);
+	 printf("M√©dia salarial: %.2f",mediaSalarial);
 	 
 	 
 	 return 0;
