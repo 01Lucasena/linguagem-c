@@ -16,7 +16,7 @@ int main(){
 	setlocale(LC_ALL,"portuguese");
 	
 	//Declarar variáveis
-	char login[200], senha[200], loginCadastrado[200] = "lucas123", senhaCadastrada[] = "123@abc";
+	char login[200], senha[200], loginCadastrado[200] = "lucas123", senhaCadastrada[200] = "123@abc";
 	
 	//Solicitando dados ao usuário
 	
