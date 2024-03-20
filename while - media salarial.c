@@ -23,7 +23,7 @@ int main(){
 	 
 	 //declarar variáveis
 	 
-	 int opcao, contador=0, idade, mulheresMaiorSalario=0, maiorIdade=-1, menorIdade=-1;
+	 int opcao, contador=0, idade, mulheresSalario5k=0, maiorIdade=0, menorIdade=999;
 	 char sexo;
 	 float salario, mediaSalarial, soma=0;
 	 
@@ -31,11 +31,14 @@ int main(){
 	 
 		
 	
-		while(1){ //condiçao para o loop (será quebrado quando o usuário digitar a opção 2) 
+		while(opcao=1){ 
 	 
 		 //menu para seleção de opções
 	 	
-	 	printf("Tecle '1' para adicionar uma pessoa ou '2' para tela de resultados: ");
+	 	printf("\nCódigo \t Descrição \n");
+	 	printf("1 \t Adicionar pessoa \n");
+	 	printf("2 \t Exibir resultados e sair \n");
+	 	printf("\nDigite a opção desejada: ");
 	 	scanf("%d",&opcao);
 	 
 	 		if(opcao==1){ 
@@ -43,11 +46,11 @@ int main(){
 	 			printf("\nDigite sua idade: ");
 	 			scanf("%d",&idade);
 	 			
-	 			if(maiorIdade == -1 || idade > maiorIdade){
+	 			if(idade > maiorIdade){
 	 					
 	 					maiorIdade = idade;
 	 					
-				}if(menorIdade == -1 || idade < menorIdade){
+				}if(idade < menorIdade){
 					 	
 					 	menorIdade = idade;
 					 	
@@ -57,13 +60,15 @@ int main(){
 	 			
 				printf("Digite seu sexo (tecle 'M' ou 'F'): ");
 	 			scanf("%c",&sexo);
+	 			
+	 			sexo = toupper(sexo);
 	 
 	 			printf("Digite o valor do seu salário: ");
 	 			scanf("%f",&salario);
 	 			
 	 			if(sexo == 'F' && salario>=5000){
 	 				
-	 				mulheresMaiorSalario++;
+	 				mulheresSalario5k++;
 	 				
 				}
 				 
@@ -84,7 +89,7 @@ int main(){
 					printf("\nMédia Salarial: R$%.2f", mediaSalarial);
 					printf("\nMaior Idade: %d",maiorIdade);
 					printf("\nMenor Idade: %d",menorIdade);
-					printf("\nMulheres com salário acima de R$5.000: %.d",mulheresMaiorSalario);
+					printf("\nMulheres com salário acima de R$5.000: %d",mulheresSalario5k);
 			
 				}
 			
@@ -92,7 +97,7 @@ int main(){
 			
 			}else{
 				
-				printf("\nOpção inválida.");
+				printf("\nOpção inválida. \n");
 			
 			}
 			
