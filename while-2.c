@@ -13,23 +13,23 @@ int main(){
 		
 		i++;
 		
-		printf("\nDigite um número entre 1 a 100: ");
+		printf("\nDigite um nÃºmero entre 1 a 100: ");
 		scanf("%d",&palpite);
 			
 		if(palpite == numeroCerto){
 			 
-			printf("\nPARABÉNS, você acertou o núnmero secreto.\n");
-			printf("\nNº de tentativas: %d",i); 	
+			printf("\nPARABÃ‰NS, vocÃª acertou o nÃºnmero secreto.\n");
+			printf("\nNÂº de tentativas: %d",i); 	
 		
 			break;
 		
 		}else if(palpite > numeroCerto){
 			
-			printf("\nTente um número menor.\n");
+			printf("\nTente um nÃºmero menor.\n");
 		
 		}else if(palpite < numeroCerto){
 			
-			printf("\nTente um número maior.\n");
+			printf("\nTente um nÃºmero maior.\n");
 			
 		}else{
 		
