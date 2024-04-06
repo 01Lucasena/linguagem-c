@@ -18,10 +18,10 @@ int main(){
 	
 	int numero,i;
 	
-	//Solicitar dados ao usuário
+	//Solicitar dados ao usuÃ¡rio
 	
 	cabecalho();
-	printf("Digite um número: ");
+	printf("Digite um nÃºmero: ");
 	scanf("%i",&numero);
 	
 	//Mostrar tabuada do numero informado
