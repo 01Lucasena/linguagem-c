@@ -6,7 +6,7 @@ float calcularMedia(float primeiraNota, float segundaNota){
 	
 	float media = (primeiraNota + segundaNota) / 2;
 	
-	media = media >= 7 ? printf("Média: %.2f APROVADO!",media) : printf("Média: %.2f REPROVADO!",media);
+	media = media >= 7 ? printf("MÃ©dia: %.2f APROVADO!",media) : printf("MÃ©dia: %.2f REPROVADO!",media);
 	
 	return media;
 	
@@ -18,10 +18,10 @@ int main(){
 	
 	float primeiraNota, segundaNota;
 	
-	printf("Digite a 1ª nota: ");
+	printf("Digite a 1Âª nota: ");
 	scanf("%f",&primeiraNota);
 	
-	printf("Digite a 2ª nota: ");
+	printf("Digite a 2Âª nota: ");
 	scanf("%f",&segundaNota);
 	
 	calcularMedia(primeiraNota,segundaNota);
