@@ -8,16 +8,16 @@ int main(){
 
 	//declarar variáveis
 	
-	int contador;
+	int i;
 	float nota, soma=0, media;
 	
 	//solicitar dados ao usuário
 	
-	for(contador=1;contador<=2;contador++){
+	for(i=1;i<=2;i++){
 	
 	do{
 	
-		printf("Digite a %dª nota: ",contador);
+		printf("Digite a %dª nota: ",i);
 		scanf("%f",&nota);
 		
 		fflush(stdin);
