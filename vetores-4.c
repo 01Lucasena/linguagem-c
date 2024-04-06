@@ -7,18 +7,18 @@ int main(){
 	
 	setlocale(LC_ALL,"");
 	
-	int i, vetor[SIZE], maiorNumero=0, menorNumero=999;
+	int i, numero[SIZE], maiorNumero=0, menorNumero=999;
 	
 	for(i = 0; i < SIZE; i++){
 		
-		printf("\nNúmero %d: ",i+1);
-		scanf("%d",&vetor[i]);
+		printf("\nDigite o %dº número: ",i+1);
+		scanf("%d",&numero[i]);
 		
-		if(vetor[i] > maiorNumero){
+		if(numero[i] > maiorNumero){
 		
 			maiorNumero = vetor[i];
 		
-		}if(vetor[i] < menorNumero){
+		}if(numero[i] < menorNumero){
 		
 			menorNumero = vetor[i];
 
@@ -30,7 +30,7 @@ int main(){
 	
 	for(i = 0; i < SIZE; i++){
 		
-		printf("\nNúmero %d: %d", i+1, vetor[i]);
+		printf("\nNúmero %d: %d", i+1, numero[i]);
 		
 	}
 
