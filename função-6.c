@@ -16,7 +16,7 @@ int main(){
 	float numero;
 	
 	printf("\n=== CONVERSOR: m --> cm ===\n");
-	printf("Digite um número: ");
+	printf("Digite um nÃºmero: ");
 	scanf("%f",&numero);
 	
 	printf("\n=== RESULTADO ===\n");
