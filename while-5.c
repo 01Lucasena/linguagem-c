@@ -4,7 +4,7 @@
 #include <string.h>
 
 
-// criar funÁ„o para calculo da mÈdia sal·rial
+// criar fun√ß√£o para calculo da m√©dia sal√°rial
 
 float calcularMediaSalarialDaPopulacao(int contadorFamilias, float somaDosSalarios){
 	
@@ -12,7 +12,7 @@ float calcularMediaSalarialDaPopulacao(int contadorFamilias, float somaDosSalari
 
 }
 
-//criar funÁ„o para calcular mÈdia de filhos por famÌlia
+//criar fun√ß√£o para calcular m√©dia de filhos por fam√≠lia
 
 int calcularMediaDoNumeroDeFilhos(int totalDeFilhos, int contadorFamilias){
 	
@@ -20,29 +20,29 @@ int calcularMediaDoNumeroDeFilhos(int totalDeFilhos, int contadorFamilias){
 	
 }
 
-// funÁ„o principal
+// fun√ß√£o principal
 
 int main(){
 	
 	setlocale(LC_ALL,"");
 	
-	//declarar vari·veis
+	//declarar vari√°veis
 	
 	int opcao, contadorFamilias=0, numeroDeFilhos=0, totalDeFilhos, mediaNumeroDeFilhos;
 	float mediaSalarialDaPopulacao, salarioFamilia, salarioPopulacao, somaDosSalarios=0, maiorSalario=-1, menorSalario=-1;
 	
 	
-	//menu de opÁıes
+	//menu de op√ß√µes
 	
 	while (1){
 		
-		printf("\nDigite '1' para adicionar uma nova famÌlia ou '2' para exibir tela de resultados: ");
+		printf("\nDigite '1' para adicionar uma nova fam√≠lia ou '2' para exibir tela de resultados: ");
 		scanf("%d",&opcao);
 		
 	
 		if(opcao==1){
 			
-			printf("\nInforme o sal·rio da famÌlia: ");
+			printf("\nInforme o sal√°rio da fam√≠lia: ");
 			scanf("%f",&salarioFamilia);
 			
 			printf("\nDigite a quantidade de filhos: ");
@@ -68,7 +68,7 @@ int main(){
 			
 			if(contadorFamilias==0){
 				
-				printf("\nNenhuma famÌlia adicionada.");
+				printf("\nNenhuma fam√≠lia adicionada.");
 				
 			}else{
 				
@@ -76,11 +76,11 @@ int main(){
 				mediaNumeroDeFilhos = calcularMediaDoNumeroDeFilhos(totalDeFilhos,contadorFamilias);
 				
 				printf("\n===EXIBINDO RESULTADOS===\n");
-				printf("\nTotal de famÌlias que responderam a pesquisa: %d",contadorFamilias);
-				printf("\nMÈdia de sal·rio da populaÁ„o: R$%.2f",mediaSalarialDaPopulacao);
-				printf("\nMÈdia de filhos por famÌlia: %d",mediaNumeroDeFilhos);
-				printf("\nMenor sal·rio: R$%.2f",menorSalario);
-				printf("\nMaior sal·rio: R$%.2f",maiorSalario);
+				printf("\nTotal de fam√≠lias que responderam a pesquisa: %d",contadorFamilias);
+				printf("\nM√©dia de sal√°rio da popula√ß√£o: R$%.2f",mediaSalarialDaPopulacao);
+				printf("\nM√©dia de filhos por fam√≠lia: %d",mediaNumeroDeFilhos);
+				printf("\nMenor sal√°rio: R$%.2f",menorSalario);
+				printf("\nMaior sal√°rio: R$%.2f",maiorSalario);
 				
 			}
 			
@@ -88,7 +88,7 @@ int main(){
 		
 		}else{
 			
-			printf("\nOpÁ„o inv·lida");
+			printf("\nOp√ß√£o inv√°lida");
 		}
 	}
 
