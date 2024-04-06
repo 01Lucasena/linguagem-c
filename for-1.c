@@ -8,13 +8,13 @@ int main(){
 	
 	setlocale(LC_ALL,"portuguese");
 	
-	//Declarar variáveis
+	//Declarar variÃ¡veis
 	
 	int i;
 	
 	//Escrever algoritimo que gera numeros pares entre 100 e 120
 	
-	printf("Lista de números pares entre 100 e 120: \n");
+	printf("Lista de nÃºmeros pares entre 100 e 120: \n");
 
 	for(i=100;i<=120;i++){
 		
