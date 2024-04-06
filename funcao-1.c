@@ -16,16 +16,16 @@ int main(){
 	
 	setlocale(LC_ALL,"");
 	
-	printf("Digite o primeiro número: ");
+	printf("Digite o primeiro nÃºmero: ");
 	scanf("%f",&primeiroNumero);
 	
-	printf("Digite o segundo número: ");
+	printf("Digite o segundo nÃºmero: ");
 	scanf("%f",&segundoNumero);
 
 	media = calcularMedia(primeiroNumero,segundoNumero);
 	
 	
-	printf("\n Média: %.2f",media);
+	printf("\n MÃ©dia: %.2f",media);
 	
 	return 0;
 
