@@ -1,18 +1,20 @@
 #include <stdio.h>
 #include <locale.h>
 
+#define SIZE 4
+
 
 
 int main(){
 	
 	setlocale(LC_ALL,"");
 	
-	int vetor[4], i, soma=0;
+	int vetor[SIZE], i, soma=0;
 	float media;
 
-	for(i = 0; i < 4; i++){
+	for(i = 0; i < SIZE; i++){
 		
-		printf("\nDigite a %dª nota: ",i+1);
+		printf("\nDigite a %dÂª nota: ",i+1);
 		scanf("%d",&vetor[i]);
 		soma += vetor[i];
 	}
@@ -21,14 +23,14 @@ int main(){
 	
 	printf("\n===EXIBINDO RESULTADOS===\n");
 	
-	for(i = 0; i < 4; i++){
+	for(i = 0; i < SIZE; i++){
 		
-		printf("\n%dª Nota: %d",i + 1, vetor[i]);
+		printf("\n%dÂª Nota: %d",i + 1, vetor[i]);
 	}
 	
 	
 	media = soma / i;
-	printf("\n\nMédia: %.2f",media);
+	printf("\n\nMÃ©dia: %.2f",media);
 	
 	if(media >= 7){
 		
@@ -36,7 +38,7 @@ int main(){
 		
 	}else if(media >= 5){
 		
-		printf("\nAluno em recuperação.");
+		printf("\nAluno em recuperaÃ§Ã£o.");
 		
 	}else{
 		
