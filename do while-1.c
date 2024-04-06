@@ -7,12 +7,12 @@ int main(){
 	
 	setlocale(LC_ALL,"");
 	
-	//declarar vari·veis
+	//declarar vari√°veis
 	int contador=0;
 	char continua;
 	float nota, soma=0, media;
 	
-	//solicitar dados ao usu·rio
+	//solicitar dados ao usu√°rio
 	
 	do{
 		printf("Digite sua nota: ");
@@ -22,7 +22,7 @@ int main(){
 		
 		contador++;
 		
-		printf("Deseja inserir mais uma nota? (Tecle 'S' para SIM ou 'N' para N√O): ");
+		printf("Deseja inserir mais uma nota? (Tecle 'S' para SIM ou 'N' para N√ÉO): ");
 		scanf("%c",&continua);
 	
 		continua = toupper(continua);
@@ -34,7 +34,7 @@ int main(){
 
 	media = soma/contador;
 	
-	printf("\nMÈdia: %.2f",media);
+	printf("\nM√©dia: %.2f",media);
 	
 	return 0;
 	
