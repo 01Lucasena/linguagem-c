@@ -14,12 +14,12 @@ int main(){
 	
 	setlocale(LC_ALL,"portuguese");
 	
-	//Declarar vari·veis
+	//Declarar vari√°veis
 	
 	char nome[200], conceito;
 	float primeiraNota, segundaNota, media;
 	
-	//Solicitar dados ao usu·rio
+	//Solicitar dados ao usu√°rio
 	
 	cabecalho();
 	printf("Digite o seu nome: ");
@@ -33,7 +33,7 @@ int main(){
 	printf("Digite a segunda nota: ");
 	scanf("%f",&segundaNota);
 	
-	//Calcular mÈdia
+	//Calcular m√©dia
 	
 	media=(primeiraNota+segundaNota)/2;
 	
@@ -61,16 +61,16 @@ int main(){
 		
 	}
 	
-	//Exibindo dados ao usu·rio
+	//Exibindo dados ao usu√°rio
 	
 	cabecalho();
 	printf("Nome: %s\n",nome);
 	printf("Primeira nota: %.2f\n",primeiraNota);
 	printf("Segunda nota: %.2f\n",segundaNota);
-	printf("MÈdia: %.2f\n",media);
+	printf("M√©dia: %.2f\n",media);
 	printf("Nota Conceito: %c\n",conceito);
 	
-	//Verificar e exibir situaÁ„o do aluno
+	//Verificar e exibir situa√ß√£o do aluno
 	
 	switch(conceito){
 		
