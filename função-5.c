@@ -46,19 +46,19 @@ int main(){
 	
 	setlocale(LC_ALL,"");
 	
-	//Declarar vari·veis
+	//Declarar vari√°veis
 	
 	int primeiroNumero, segundoNumero, soma, subtracao, multiplicacao;
 	float divisao;
 	
-	//Solicitar dados ao usu·rio
+	//Solicitar dados ao usu√°rio
 	
 	cabecalho();
 	
-	printf("Digite o primeiro n˙mero: ");
+	printf("Digite o primeiro n√∫mero: ");
 	scanf("%d",&primeiroNumero);
 	
-	printf("Digite o segundo n˙mero: ");
+	printf("Digite o segundo n√∫mero: ");
 	scanf("%d",&segundoNumero);
 	
 
@@ -66,9 +66,9 @@ int main(){
 	
 	cabecalho();
 	printf("\nSoma: %d\n",somar(primeiroNumero,segundoNumero));
-	printf("SubtraÁ„o: %d\n",subtrair(primeiroNumero,segundoNumero));
-	printf("MultiplicaÁ„o: %d\n",multiplicar(primeiroNumero,segundoNumero));
-	printf("Divis„o: %.2f\n",dividir(primeiroNumero,segundoNumero));
+	printf("Subtra√ß√£o: %d\n",subtrair(primeiroNumero,segundoNumero));
+	printf("Multiplica√ß√£o: %d\n",multiplicar(primeiroNumero,segundoNumero));
+	printf("Divis√£o: %.2f\n",dividir(primeiroNumero,segundoNumero));
 	
 	return 0;
 	
