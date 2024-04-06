@@ -12,7 +12,7 @@ void cabecalho(){
 
 void verificarParOuImpar(int numero){
 	
-	numero % 2 == 0 ? printf("\n%d È par",numero) : printf("\n%d È Ìmpar",numero);
+	numero % 2 == 0 ? printf("\n%d √© par",numero) : printf("\n%d √© √≠mpar",numero);
 		
 }
 
@@ -20,14 +20,14 @@ int main(){
 
 	setlocale(LC_ALL,"");
 	
-	//Declarar vari·veis
+	//Declarar vari√°veis
 	
 	int numero;
 	
-	//Solicitar dados ao usu·rio
+	//Solicitar dados ao usu√°rio
 	
 	cabecalho();
-	printf("Digite um n˙mero: ");
+	printf("Digite um n√∫mero: ");
 	scanf("%d",&numero);
 	
 	printf("\n===RESULTADO===");
