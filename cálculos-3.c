@@ -14,12 +14,12 @@ int main (){
 	
 	setlocale(LC_ALL,"portuguese");
 	
-	//Declarar variáveis
+	//Declarar variÃ¡veis
 	
 	int primeiroValor, segundoValor, soma, subtracao, multiplicacao;
 	float divisao;
 	
-	//Solicitar dados ao usuário
+	//Solicitar dados ao usuÃ¡rio
 	
 	cabecalho();
 	printf("Digite o primeiro valor: ");
@@ -30,23 +30,23 @@ int main (){
 	scanf("%i",&segundoValor);
 	system("cls||clear");
 	
-	//Efetuar cálculo dos valores
+	//Efetuar cÃ¡lculo dos valores
 	
 	soma=primeiroValor+segundoValor;
 	subtracao=primeiroValor-segundoValor;
 	multiplicacao=primeiroValor*segundoValor;
 	divisao=primeiroValor/segundoValor;
 	
-	//Exibir dados ao usuário
+	//Exibir dados ao usuÃ¡rio
 	
 	cabecalho();
 	printf("\n===EXIBINDO RESULTADOS===\n");
 	printf("Primeiro Valor: %i\n",primeiroValor);
 	printf("Segundo Valor: %i\n",segundoValor);
 	printf("Soma: %i\n",soma);
-	printf("Subtração: %i\n",subtracao);
-	printf("Multiplicação: %i\n",multiplicacao);
-	printf("Divisão: %.2f\n",divisao);
+	printf("SubtraÃ§Ã£o: %i\n",subtracao);
+	printf("MultiplicaÃ§Ã£o: %i\n",multiplicacao);
+	printf("DivisÃ£o: %.2f\n",divisao);
 
 	return 0;
 
