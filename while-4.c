@@ -7,13 +7,13 @@ int main(){
 	
 	setlocale(LC_ALL,"");
 	
-	//Declarar variáveis
+	//Declarar variÃ¡veis
 	int numero, soma=0, i=0, pares=0, impares=0, somaPares=0, somaImpares=0;
 	float media, mediaPares, mediaImpares;
 	
-	//Solicitar dados ao usuário
+	//Solicitar dados ao usuÃ¡rio
 	
-	printf("Digite um número: ");
+	printf("Digite um nÃºmero: ");
 	scanf("%d",&numero);
 	
 	while(numero!=0){
@@ -37,7 +37,7 @@ int main(){
 	
 		}
 	
-		printf("Digite um número: ");
+		printf("Digite um nÃºmero: ");
 		scanf("%d",&numero);
 	
 	}
@@ -46,7 +46,7 @@ int main(){
 	
 	if (i==0){
 		
-		printf("Não foi inserido um número inteiro positivo.");
+		printf("NÃ£o foi inserido um nÃºmero inteiro positivo.");
 	
 	}else{
 		
@@ -54,11 +54,11 @@ int main(){
 		mediaPares = somaPares / (float)pares;
 		mediaImpares = somaImpares / (float)impares;
 		
-		printf("Média geral dos números lidos: %.2f",media);
-		printf("\nNúmeros pares: %d",pares);
-		printf("\nMédia dos números pares: %.2f", mediaPares);
-		printf("\nNúmeros ímpares: %d",impares);
-		printf("\nMédia dos números pares: %.2f", mediaImpares);
+		printf("MÃ©dia geral dos nÃºmeros lidos: %.2f",media);
+		printf("\nNÃºmeros pares: %d",pares);
+		printf("\nMÃ©dia dos nÃºmeros pares: %.2f", mediaPares);
+		printf("\nNÃºmeros Ã­mpares: %d",impares);
+		printf("\nMÃ©dia dos nÃºmeros pares: %.2f", mediaImpares);
 	}
 	
 	return 0;
