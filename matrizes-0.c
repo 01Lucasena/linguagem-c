@@ -21,7 +21,7 @@ int main(){
 		
 	}
 	
-	printf("\n===EXIBINDO NÚMEROS===\n");
+	printf("\n===EXIBINDO NÃšMEROS===\n");
 	
 	for(i=0;i<SIZE;i++){
 		
