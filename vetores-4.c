@@ -1,15 +1,17 @@
 #include <stdio.h>
 #include <locale.h>
 
+#define SIZE 5
+
 int main(){
 	
 	setlocale(LC_ALL,"");
 	
-	int i, vetor[5], maiorNumero=0, menorNumero=999;
+	int i, vetor[SIZE], maiorNumero=0, menorNumero=999;
 	
-	for(i = 0; i < 5; i++){
+	for(i = 0; i < SIZE; i++){
 		
-		printf("\nNúmero %d: ",i+1);
+		printf("\nNÃºmero %d: ",i+1);
 		scanf("%d",&vetor[i]);
 		
 		if(vetor[i] > maiorNumero){
@@ -26,14 +28,14 @@ int main(){
 	
 	printf("\n===EXIBINDO RESULTADOS===\n");
 	
-	for(i = 0; i < 5; i++){
+	for(i = 0; i < SIZE; i++){
 		
-		printf("\nNúmero %d: %d", i+1, vetor[i]);
+		printf("\nNÃºmero %d: %d", i+1, vetor[i]);
 		
 	}
 
-	printf("\nMaior número: %d",maiorNumero);
-	printf("\nMenor número: %d",menorNumero);
+	printf("\nMaior nÃºmero: %d",maiorNumero);
+	printf("\nMenor nÃºmero: %d",menorNumero);
 	
 	return 0;
 	
