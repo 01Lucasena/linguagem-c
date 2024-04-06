@@ -13,10 +13,10 @@ int main(){
 	
 	for(i=0;i<SIZE;i++){
 		
-		printf("\nDigite o %dº nome: ",i+1);
+		printf("\nDigite o %dÂº nome: ",i+1);
 		scanf("%s",&nome[i]);
 		
-		printf("\nDigite a %dª idade: ",i+1);
+		printf("\nDigite a %dÂª idade: ",i+1);
 		scanf("%d",&idade[i]);
 	}
 	
@@ -24,8 +24,8 @@ int main(){
 	
 	for(i=0;i<SIZE;i++){
 		
-		printf("\n\n%d° Nome: %s",i+1,nome[i]);
-		printf("\n%dª Idade: %d",i+1,idade[i]);
+		printf("\n\n%dÂ° Nome: %s",i+1,nome[i]);
+		printf("\n%dÂª Idade: %d",i+1,idade[i]);
 	}
 	
 	return 0;
