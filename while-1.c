@@ -4,76 +4,61 @@
 #include <string.h>
 
 
-
-//criando função do tipo float para calculo de média salarial
-
 float calcularMediaSalarial(int contador, float soma){
 	
 	return soma / contador;
 
 }
 
-//função principal
-
 int main(){
-	 
-	 //comando que reconhece caracteres da língua portuguesa
-	 
-	 setlocale(LC_ALL,"");
-	 
-	 //declarar variáveis
-	 
-	 int opcao, contador=0, idade, mulheresSalario5k=0, maiorIdade=0, menorIdade=999;
-	 char sexo;
-	 float salario, mediaSalarial, soma=0;
-	 
-	 //solicitar dados ao usuário
-	 
-		
 	
-		while(opcao=1){ 
+	setlocale(LC_ALL,"");
+	
+	int opcao, contador=0, idade, mulheresSalario5k=0, maiorIdade=0, menorIdade=999;
+	char sexo;
+	float salario, mediaSalarial, soma=0;
 	 
-		 //menu para seleção de opções
-	 	
+	while(1){ 
+	 
 	 	printf("\nCódigo \t Descrição \n");
 	 	printf("1 \t Adicionar pessoa \n");
 	 	printf("2 \t Exibir resultados e sair \n");
 	 	printf("\nDigite a opção desejada: ");
 	 	scanf("%d",&opcao);
 	 
-	 		if(opcao==1){ 
+	 	if(opcao==1){ 
 	 	
-	 			printf("\nDigite sua idade: ");
-	 			scanf("%d",&idade);
+	 		printf("\nDigite sua idade: ");
+	 		scanf("%d",&idade);
 	 			
-	 			if(idade > maiorIdade){
+	 		if(idade > maiorIdade){
 	 					
-	 					maiorIdade = idade;
+	 				maiorIdade = idade;
 	 					
-				}if(idade < menorIdade){
+			}if(idade < menorIdade){
 					 	
-					 	menorIdade = idade;
+					menorIdade = idade;
 					 	
-				}
+			}
 	 			
-	 			fflush(stdin);
+	 		fflush(stdin);
 	 			
-				printf("Digite seu sexo (tecle 'M' ou 'F'): ");
-	 			scanf("%c",&sexo);
+			printf("Digite seu sexo (tecle 'M' ou 'F'): ");
+	 		scanf("%c",&sexo);
 	 			
-	 			sexo = toupper(sexo);
+	 		sexo = toupper(sexo);
 	 
-	 			printf("Digite o valor do seu salário: ");
-	 			scanf("%f",&salario);
+	 		printf("Digite o valor do seu salário: ");
+	 		scanf("%f",&salario);
 	 			
-	 			if(sexo == 'F' && salario>=5000){
+	 		if(sexo == 'F' && salario>=5000){
 	 				
-	 				mulheresSalario5k++;
+	 			mulheresSalario5k++;
 	 				
-				}
+			}
 				 
-				 soma += salario;
-				 contador++;
+			soma += salario;
+			contador++;
 				
 			}else if(opcao == 2){
 				
