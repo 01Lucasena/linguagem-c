@@ -2,7 +2,7 @@
 #include <locale.h>
 #include <string.h>
 
-#define QUANTIDADE_DE_DISCIPLINAS 1
+#define QUANTIDADE_DE_DISCIPLINAS 3
 #define QUANTIDADE_DE_NOTAS 3
 
 int main(){
@@ -15,12 +15,12 @@ int main(){
 	
 	for(i = 0; i < QUANTIDADE_DE_DISCIPLINAS; i++){
 		
-		printf("\nDigite o nome da %dª discilpina: ",i+1);
+		printf("\nDigite o nome da %dÂª discilpina: ",i+1);
 		gets(nomeDisciplina[i]);
 		
 		for(j = 0; j < QUANTIDADE_DE_NOTAS; j++){
 			
-			printf("\nDigite a %dª nota: ",j+1);
+			printf("\nDigite a %dÂª nota: ",j+1);
 			scanf("%f",&notaDisciplina[i][j]);
 			
 			fflush(stdin);
@@ -30,7 +30,7 @@ int main(){
 				notaPeso = notaDisciplina[i][j] * peso[j];
 				somaNotas += notaPeso;
 				
-			}else{ printf("\nNota digitada inválida."); }	
+			}else{ printf("\nNota digitada invÃ¡lida."); }	
 		}
 	
 		mediaNotas[i] = somaNotas / 10;
@@ -48,11 +48,11 @@ int main(){
 	
 		for(j = 0; j < QUANTIDADE_DE_NOTAS; j++){
 			
-			printf("\n%dª Nota: %.2f",j+1,notaDisciplina[i][j]);
+			printf("\n%dÂª Nota: %.2f",j+1,notaDisciplina[i][j]);
 		
 		}
 		
-		printf("\nMédia ponderada: %.2f",mediaNotas[i]);
+		printf("\nMÃ©dia ponderada: %.2f",mediaNotas[i]);
 		
 		printf("\n");
 			
