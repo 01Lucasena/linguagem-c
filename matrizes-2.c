@@ -43,27 +43,27 @@ int main(){
 		
 		for(j = 0; j < QUANTIDADE_DE_NOTAS; j++){
 			
-			printf("\n%dª Nota: %.1f\n",j+1,nota[i][j]);
+			printf("\n%dª Nota: %.1f",j+1,nota[i][j]);
 		
 		}
 		
-		printf("\nMédia: %.1f\n",media[i]);
+		printf("\nMédia: %.1f",media[i]);
 		
 		if(media[i] >= 7){
 			
-			printf("\nAprovado\n");
+			printf("\nAprovado");
 			
 		}else if(media[i] >= 5 && media[i] < 7){
 		
-			printf("\nRecuperação\n");
+			printf("\nRecuperação");
 			
 		}else{
 			
-			printf("\nReprovado\n");
+			printf("\nReprovado");
 		
 		}
 		
-		printf("\n==========================\n");
+		printf("\n");
 	
 	}
 	
